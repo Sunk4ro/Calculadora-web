@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-cal
+{
+    color: white;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.num button
+{
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 3rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.num button:hover
+{
+    background-color: rgb(112, 112, 112);
+    cursor: pointer;
+}
+
+.operation button
+{
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(41, 0, 58);
+    border: 0;
+    border-radius: 3rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.operation button:hover
+{
+    background-color: rgb(87, 0, 124);
+    cursor: pointer;
+}
+
+#resultado
+{
+    background-color: rgb(204, 204, 204);
+    width: 16rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    text-align: end;
+    color: black;
+}
